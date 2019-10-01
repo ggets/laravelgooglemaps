@@ -27,9 +27,6 @@
     }
   },
   "extra": {
-    "branch-alias": {
-      "dev-master": "2.5.x-dev"
-    },
     "laravel": {
       "providers": [
           "FarhanWazir\\GoogleMaps\\GMapsServiceProvider"
@@ -38,6 +35,5 @@
           "GMaps" : "FarhanWazir\\GoogleMaps\\Facades\\GMapsFacade"
          }
       }
-  },
-  "minimum-stability": "stable"
+  }
 }
