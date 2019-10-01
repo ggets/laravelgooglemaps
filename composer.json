@@ -1,5 +1,5 @@
 {
-  "name": "farhanwazir/laravelgooglemaps",
+  "name": "rpsimao/laravelgooglemaps",
   "description": "Laravel Google Map package for 5.x. You can use all google map features in laravel.",
   "license": "MIT",
   "keywords": [
@@ -29,7 +29,15 @@
   "extra": {
     "branch-alias": {
       "dev-master": "2.5.x-dev"
-    }
+    },
+    "laravel": {
+      "providers": [
+          "FarhanWazir\\GoogleMaps\\GMapsServiceProvider"
+      ],
+      "aliases": {
+          "GMaps" : "FarhanWazir\\GoogleMaps\\Facades\\GMapsFacade"
+         }
+      }
   },
   "minimum-stability": "stable"
 }
