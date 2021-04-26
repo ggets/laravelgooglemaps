@@ -1,5 +1,5 @@
 {
-  "name": "rpsimao/laravelgooglemaps",
+  "name": "ggets/laravelgooglemaps",
   "description": "Laravel Google Map package for 5.x. You can use all google map features in laravel.",
   "license": "MIT",
   "keywords": [
